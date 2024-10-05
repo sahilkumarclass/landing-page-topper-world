@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webinar Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">WEBINAR</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="/login" class="login-btn">Login</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="webinar-banner">
+        <div class="webinar-content">
+            <h1>BUSINESS STRATEGY</h1>
+            <h2>Best Speaker</h2>
+            <p class="description">Join us for an exclusive webinar on business strategy with top industry experts.</p>
+            <div class="date-time">
+                <p><strong>12:21 PM</strong> | <strong>1:30 PM</strong> | <strong>12:30 PM</strong></p>
+            </div>
+            <button class="read-more">READ MORE</button>
+        </div>
+        <div class="webinar-image">
+            <img src="https://motivationalspeakerz.com/wp-content/uploads/2019/09/chris-gardner.png"
+                alt="Webinar Speaker">
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="#">@WEBINAR</a>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.read-more').addEventListener('click', function () {
+            alert('More information will be available soon!');
+        });
+    </script>
+</body>
+
+</html>
